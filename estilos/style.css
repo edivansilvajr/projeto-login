@@ -81,26 +81,19 @@ div.campo > label {
 
 div.campo > span {
     color: white;
-    /* background-color: black; */
-    font-size: 2em;
-    width: 40px;
-    padding: 4px;
+    height: 40px;
 }
 
 div.campo > input {
     position: relative;
     background-color: #69ebe6;
     font-size: 1em;
-    width: calc(100% - 45px);
+    width: calc(100% - 29px);
     height: 100%;
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    -webkit-transform: translateY(-11px);
-    -moz-transform: translateY(-11px);
-    -o-transform: translateY(-11px);
-    -ms-transform: translateY(-11px);
-    transform:translateY(-11px);
+    
 }
 
 div.campo > input:focus-within {
